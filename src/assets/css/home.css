@@ -1,0 +1,221 @@
+.formCadServico{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+    padding: 30px;
+    z-index: 2;
+    position: relative;
+    opacity: 0.8;
+    margin-top: -10%;
+    margin-left: 33%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+
+
+.formCadServico h2{
+    background: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #28aadd;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+    margin-top: 3%
+}
+.formCadServico input[type="email"],
+.formCadServico input[type="text"]
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px 'Open Sans Condensed';
+    height: 45px;
+}
+.formCadServico textarea{
+    resize:none;
+    overflow: hidden;
+}
+.formCadServico input[type="button"], 
+.formCadServico input[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.formCadServico input[type="button"]:hover, 
+.formCadServico input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+
+
+
+
+.listaServiço{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+    padding: 30px;
+    z-index: 2;
+    position: relative;
+    opacity: 0.8;
+    margin-top: -10%;
+    margin-left: 33%;
+    background: #FFFFFF;
+    
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.listaServiço h2{
+    background: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #28aadd;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+    margin-top: 3%
+}
+.listaServiço input[type="email"],
+.listaServiço input[type="text"]
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px 'Open Sans Condensed';
+    height: 45px;
+}
+.listaServiço textarea{
+    resize:none;
+    overflow: hidden;
+}
+.listaServiço input[type="button"], 
+.listaServiço input[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.listaServiço input[type="button"]:hover, 
+.listaServiço input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+
+
+
+
+.listUsers{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+    padding: 30px;
+    z-index: 2;
+    position: relative;
+    margin-top: -10%;
+    margin-left: 33%;
+    opacity: 0.8;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.listUsers h2{
+    background: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #28aadd;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+    margin-top: 3%
+}
+.listUsers input[type="email"],
+.listUsers input[type="text"]
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px 'Open Sans Condensed';
+    height: 45px;
+}
+.listUsers textarea{
+    resize:none;
+    overflow: hidden;
+}
+.listUsers input[type="button"], 
+.listUsers input[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.listUsers input[type="button"]:hover, 
+.listUsers input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+
+.fundo{
+    width:100%;
+    position: fixed;
+    z-index:-2;
+}
