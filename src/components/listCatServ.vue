@@ -4,11 +4,13 @@
   <div> 
   
 
-<div class="listaServiço">
+<div class="listaServico">
     <img src="@/assets/imagens/Logo - Sprint 2.png" id= "logo" alt="" style=" width:60%">
     <h2>Categoria de Serviços</h2>
     <h3>Lista</h3>
+    <div class="listas">
 <b-table  hover :items="items"></b-table>
+    </div>
 </div>
     </div>
     
@@ -35,8 +37,8 @@ export default {
 
 <style>
 #md{
-    width: 30em;
-    height: 8em;
+    width: 25em;
+    height: 5em;
     margin-left: 35%;
     margin-top: 2%;
 }
@@ -71,6 +73,6 @@ export default {
     width: 5em;
     top: -12em;
     left: 15em;
-    position: relative;
+    
 }	
 </style

@@ -56,13 +56,57 @@
           </v-list-tile-content>
         </v-list-tile>
         </router-link>
+
+        <router-link v-bind:to="{name: 'menu'}" class="side_bar_link">
+        <v-list-tile>
+          <v-list-tile-action>
+            <v-icon></v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>menu</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        </router-link>
+
+        <router-link v-bind:to="{name: 'cadAdm'}" class="side_bar_link">
+        <v-list-tile>
+          <v-list-tile-action>
+            <v-icon></v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>Cadastro</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        </router-link>
+
+        <router-link v-bind:to="{name: 'cadPessoaJud'}" class="side_bar_link">
+        <v-list-tile>
+          <v-list-tile-action>
+            <v-icon></v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>Cadastro Pessoa Juridica</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        </router-link>
+
+        <router-link v-bind:to="{name: 'login'}" class="side_bar_link">
+        <v-list-tile>
+          <v-list-tile-action>
+            <v-icon></v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>Login</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        </router-link>
         
       </v-list>
     </v-navigation-drawer>
     <v-toolbar color="indigo" dark fixed app>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <!-- <v-toolbar-title>Athena</v-toolbar-title> -->
-      <v-toolbar-title><img src="@/assets/imagens/Logo - Sprint 2.png" id="logoa" alt="" style="width: 10%"></v-toolbar-title>
+      <v-toolbar-title><img src="@/assets/imagens/LOGO-oficial.png" id="logoa" alt="" style="width: 10%" ></v-toolbar-title>
     </v-toolbar>
     <v-content>
      

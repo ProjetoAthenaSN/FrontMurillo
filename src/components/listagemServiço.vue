@@ -1,14 +1,16 @@
 <template>
 
 
-  <div> 
+  <div class="logo"> 
   
 
-<div class="listaServiço">
-  <img src="@/assets/imagens/Logo - Sprint 2.png" id= "logo" alt="" style=" width:60%">
+<div class="listaServico">
+  <img src="@/assets/imagens/Logo - Sprint 2.png" id= "md   " alt="" style=" width:60%">
     <h2>Serviços</h2>
     <h3>Lista</h3>
-<b-table  hover :items="items"></b-table>
+  <div class="listas">    
+  <b-table  hover :items="items"></b-table>
+  </div>
 </div>
     </div>
     
@@ -33,7 +35,8 @@ const items = [
   {  Ordem: 1, Serviço: 'Manicure', Descrição: 'Cortar, pintar e tratar as unhas das mãos e pés' },
   {  Ordem: 2, Serviço: 'Corte de Cabelo', Descrição: 'Corte de cabelo Feminino e masculino' },
   {  Ordem: 3, Serviço: 'Barba', Descrição: 'Cortar e estilizar barba' },
-  {  Ordem: 4, Serviço: 'Pintar cabelo', Descrição: 'Dscolorir e Pintar os cabelos' }
+  {  Ordem: 4, Serviço: 'Pintar cabelo', Descrição: 'Dscolorir e Pintar os cabelos' },
+  
 ]
 
 export default {
@@ -47,8 +50,8 @@ export default {
 
 <style>
 #md{
-    width: 30em;
-    height: 8em;
+    width: 25em;
+    height: 5em;
     margin-left: 35%;
     margin-top: 2%;
 }
@@ -83,6 +86,6 @@ export default {
     width: 5em;
     top: -12em;
     left: 15em;
-    position: relative;
+    
 }	
 </style
