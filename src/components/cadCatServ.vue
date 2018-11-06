@@ -5,12 +5,12 @@
        <img src="@/assets/imagens/Logo - Sprint 2.png" id= "logo" alt="" style=" width:60%">
        <h2>Categoria de Serviço</h2>
        <h3>Cadastro</h3>
-      <b-form @submit="onSubmit" @reset="onReset">
+      <b-form @submit="onSubmit" method="post">
       <b-form-group id="exampleInputGroup2"
                     label-for="exampleInput2">
         <b-form-input id="exampleInput2"
                       type="text"
-                      v-model="form.name"
+                      v-model="name"
                       required
                       placeholder="Nome">
         </b-form-input>
@@ -20,7 +20,7 @@
                     label-for="exampleInput1">
         <b-form-input id="exampleInput1"
                       type="text"
-                      v-model="form.descricao"
+                      v-model="descricao"
                       required
                       placeholder="Descrição">
         </b-form-input>
@@ -34,32 +34,30 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'cadCatServ',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App',
-      form:{
-        name:'',
-        descricao:''
-      },
-      methods: {
+      idAdm: localStorage.getItem("idAdm"),
+        name:"",
+        descricao:""
+      };
+  },
+   methods: {
     onSubmit (evt) {
       evt.preventDefault();
-      alert(JSON.stringify(this.form));
-    },
-    onReset (evt) {
-      evt.preventDefault();
-      /* Reset our form values */
-      this.form.name = '';
-      this.form.email = '';
-      /* Trick to reset/clear native browser form validation state */
-      this.show = false;
-      this.$nextTick(() => { this.show = true });
+      return axios({
+        method: "post",
+        url: "http://localhost:51917/api/categoria/" + this.idAdm,
+        data: {
+          name: this.name,
+          descricao: this.descricao
+        },
+      })
     }
   }
-}
-  }
 };
+  
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

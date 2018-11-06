@@ -27,12 +27,28 @@
   data() {
     return {
       email: "",
-      senha: ""
+      password: ""
     };
   },
   methods: {
-    onLoad(evt) {
-      
+   login() {
+     axios({
+       url: "http://localhost:51917/api/token",
+       method: "POST",
+       data: {
+         Email: this.email,
+         Senha: this.password
+       }
+     })
+      .then(response =>{
+        const token = response.data.token;
+        localStorage.setItem("token", response.data.token);
+        console.log(response.data.token)
+        this.$router.push("/menu");
+      })
+      .catch(err => {
+        this.erro = 'E-mail ou senha inválidos';
+      });
     }
   }
     }
