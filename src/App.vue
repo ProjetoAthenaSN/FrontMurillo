@@ -12,7 +12,7 @@
       app
     >
     
-      <v-list dense>
+       <v-list dense>
         <router-link v-bind:to="{name: 'HelloWorld'}" class="side_bar_link">
         <v-list-tile>
           <v-list-tile-action>

@@ -41,7 +41,7 @@ export default new Router({
       component: listUsers
     },
     {
-      path: '/',
+      path: '/cadCatServ',
       name: 'cadCatServ',
       component: cadCatServ,
     },
@@ -91,7 +91,7 @@ export default new Router({
       component:cadPessoaJud
     },
     {
-      path:'/login',
+      path:'/',
       name:'login',
       component:login
     }

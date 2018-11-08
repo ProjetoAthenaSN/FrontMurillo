@@ -12,7 +12,8 @@
                 <label for="inputLive" >Senha:</label>
                 <b-form-input v-model="password" type="password" placeholder="Digite sua senha:"></b-form-input>
                 <b-btn class="mt-3" variant="outline-danger" block @click="login">Logar</b-btn>
-             <template v-if="erro != null">{{erro}}</template>
+                <a href="/cadAdm">Cadastre-se</a>
+             <template v-if="erro  != null">{{erro}}</template>
             </form>
         </div>
         <router-view/>
